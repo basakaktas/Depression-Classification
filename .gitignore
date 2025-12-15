@@ -15,3 +15,7 @@ Thumbs.db
 
 # VS Code settings 
 .vscode/
+
+#checkpoints
+
+.ipynb_checkpoints
