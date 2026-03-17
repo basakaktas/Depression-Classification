@@ -1,20 +1,33 @@
-# CMPE403
-### Create a virtual environment
-python -m venv venv
+# 📊 Student Depression Analysis (ML Project)
 
-### Activate it
+Machine learning project analyzing how academic, lifestyle, and psychological factors affect student depression.
 
-#### macOS/Linux:
+---
 
-source venv/bin/activate
+## 🚀 Overview
 
-#### Windows:
-venv\Scripts\activate
+This project uses classification algorithms to predict whether a student is depressed and to identify the most important contributing factors.
 
-### Install Dependencies
+- 🎯 Goal: Binary classification (Depressed / Not Depressed)
+- 📦 Dataset: ~27,900 student records
+- 🤖 Models: Logistic Regression, Naïve Bayes, Random Forest
 
-pip install -r requirements.txt
+---
 
-### Run Jupyter Notebooks
+## 📁 Dataset
 
-jupyter notebook
+- Source: Kaggle – Student Depression Dataset  
+- Target: `Depression` (0 = No, 1 = Yes)
+
+### Features:
+- Academic → CGPA, Academic Pressure, Study Satisfaction  
+- Lifestyle → Sleep, Diet, Work/Study Hours  
+- Psychological → Suicidal Thoughts, Financial Stress  
+- Demographic → Age, Gender, City  
+
+---
+
+## ⚙️ Workflow
+
+```text
+Data → Preprocessing → Encoding → Train/Test Split → Model Training → Evaluation
